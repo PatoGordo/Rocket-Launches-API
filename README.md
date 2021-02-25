@@ -1,19 +1,47 @@
-## Next.js Repl.it Template
+# Welcome to Rocket Launches API 👋
+![Version](https://img.shields.io/badge/Version-1.1-blue.svg?cacheSeconds=2592000)
+[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](#)
+[![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-[Next.js](https://nextjs.org/) is an easy-to-use React framework that ships with server-side rendering, hot module reloading, and many other features out-of-the-box. 
+> This project was made to you inform your self about next rocket launches.
 
-By default, Repl.it runs the `dev` script, but you can configure it by changing the `run` field in `.replit`.
+### 🏠 [Homepage](https://api.rocketlaunches.ga/)
+### 💻 [Website](https://rocketlaunches.ga/)
 
-To add a new page simply add a .js, .jsx, .ts, or .tsx file in the `pages` directory. Pages are associated with a route based on their file name. For example `pages/about.js` is mapped to `/about`. You can even add dynamic route parameters with the filename.
+## :bookmark_tabs: Content
 
-We've already created `/pages/index.js` for you to get you started. Feel free to change its contents and see it live-update!
+- [:zap: Features](#features-zap)
+- [:hammer_and_pick: Usage](#usage-hammer_and_pick)
+- [:handshake: Show your support](#show-your-support-handshake)
+- [:technologist: Author](#author-technologist)
 
-```javascript
-function HomePage() {
-  return <div>Welcome to Next.js!</div>
-}
+---
 
-export default HomePage
+## Features :zap:
+[![Deployed in Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://api.rocketlaunches.ga)
+[![Nextjs](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![NodeJs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
+
+## Usage :hammer_and_pick:
+- Download the code on your pc and open a terminal inside the folder and run using:
+```sh
+   npm run dev
 ```
+***
 
-Refer to the [Next.js docs](https://nextjs.org/docs/getting-started) to learn more.
+
+## Show your support :handshake:
+
+Give a ⭐️ if this project helped you!<br>
+Makes a [pull request](https://github.com/PatoGordo/Rocket-Launches-API/pulls) adding new features or solving bugs. <br>
+Create a [Issue](https://github.com/PatoGordo/Rocket-Launches-API/issues) if you don't want to implement the feature or fix the bug. <br>
+
+## Author :technologist:
+
+**PatoGordo**
+
+* Website: [https://patogordo.ga](https://patogordo.ga) <br>
+* Twitter: [@Patogordoo](https://twitter.com/Patogordoo) <br>
+* Github: [@PatoGordo](https://github.com/PatoGordo) <br>
+
+***
