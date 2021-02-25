@@ -138,40 +138,38 @@ function initMiddleware(middleware) {
 
 /***/ }),
 
-/***/ "./pages/api/launches.js":
-/*!*******************************!*\
-  !*** ./pages/api/launches.js ***!
-  \*******************************/
+/***/ "./pages/api/news.js":
+/*!***************************!*\
+  !*** ./pages/api/news.js ***!
+  \***************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Launches; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return News; });
 /* harmony import */ var _lib_cors__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../lib/cors */ "./lib/cors.js");
 const fetch = __webpack_require__(/*! node-fetch */ "node-fetch");
 
 
-async function Launches(req, res) {
+async function News(req, res) {
   await Object(_lib_cors__WEBPACK_IMPORTED_MODULE_0__["default"])(req, res);
-  const apiBase = await fetch('https://fdo.rocketlaunch.live/json/launches/next/5');
+  const apiBase = await fetch('https://www.spaceflightnewsapi.net/api/v2/articles?_limit=5');
   const json = await apiBase.json();
   res.setHeader('Cache-Control', 's-maxage=10, stale-while-revalidate');
-  res.json({
-    result: json.result
-  });
+  res.json(json);
 }
 
 /***/ }),
 
 /***/ 3:
-/*!*************************************!*\
-  !*** multi ./pages/api/launches.js ***!
-  \*************************************/
+/*!*********************************!*\
+  !*** multi ./pages/api/news.js ***!
+  \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/runner/Apii/pages/api/launches.js */"./pages/api/launches.js");
+module.exports = __webpack_require__(/*! /home/runner/Apii/pages/api/news.js */"./pages/api/news.js");
 
 
 /***/ }),
@@ -199,4 +197,4 @@ module.exports = require("node-fetch");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=launches.js.map
+//# sourceMappingURL=news.js.map
