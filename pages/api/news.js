@@ -9,5 +9,7 @@ export default async function News(req, res){
 	
 	res.setHeader('Cache-Control', 's-maxage=10, stale-while-revalidate')
 
-	res.json(json)
+	res.json({
+		result: json
+	})
 }
