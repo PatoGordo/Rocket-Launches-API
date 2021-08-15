@@ -1,2 +1,6 @@
-/.next
-.replit
+node_modules
+dist
+.vercel
+.env
+.env.dev
+.env.test
