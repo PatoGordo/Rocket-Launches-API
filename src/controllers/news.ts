@@ -5,7 +5,7 @@ class newsController {
   public async index(req: Request, res: Response) {
     try {
       const response = await axios.get(
-        "https://www.spaceflightnewsapi.net/api/v2/articles?_limit=5"
+        "https://api.spaceflightnewsapi.net/v3/articles?_limit=5"
       );
       const result = response.data;
 
